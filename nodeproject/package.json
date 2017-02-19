@@ -12,6 +12,10 @@
   "scripts": {
     "start": "node app.js"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.4"
+  },
   "license": "ISC"
 }
