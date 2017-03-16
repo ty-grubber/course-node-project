@@ -38,6 +38,7 @@ gulp.task('serve', ['style', 'inject'], function() {
         watch: jsFiles
     };
     
+    //`gulp serve` to get this going
     return nodemon(options)
         .on('restart', function(ev) {
             console.log('Restarting Server.');
